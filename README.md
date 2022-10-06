@@ -1,1 +1,4 @@
 # PersonaPizza
+
+Nosso projeto tem como objetivo a criação de um site de uma pizzaria, com o diferencial de possibilitar a personalização da pizza. Com esse projeto, procuramos atingir um público específico, focando em pessoas que possuem alguma alergia ou intolerância a algum tipo de alimento e que procuram inclusão, podendo aproveitar de uma alimentação segura.
+Existem algums sites de pizzaria que permitem a personalização, como a Domino's e o Ifood, mas a variedade de ingredientes é muito limitada, podendo não ser acessível para algumas pessoas, diferente do nosso projeto, que pretende abrangir oo maior número de possibilidades de personalização.
