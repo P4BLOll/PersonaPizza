@@ -7,6 +7,10 @@ Existem algums sites de pizzaria que permitem a personalização, como a Domino'
 
 Publico do alvo: Pessoas com alergias, intolenrancia e preferencias especiais.
 
+Sites semelheantes: Dominos Pizzas, pizza hut.
+
+Por que usariam o nosso: por conter um sistema de personalização especializado e segurança no pedido.
+
 Tecnologias utilizadas: HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. CSS é chamado de linguagem Cascading Style Sheet e é usado para estilizar elementos escritos em uma linguagem de marcação como HTML. O CSS separa o conteúdo da representação visual do site. Pense na decoração da sua página.Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web, usando HTML, CSS e JavaScript, baseado em modelos de design para a tipografia, melhorando a experiência do usuário em um site amigável e responsivo.avaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.
 
 
