@@ -1,0 +1,57 @@
+body{
+    justify-content: center;
+}
+.central{
+  display: flex;
+  justify-content: center;
+  padding: 15vh;
+}
+.forms{
+    background-color: #c9b09a;
+    display: flex;
+    max-width: 800px;
+    border-radius: 30px;
+    padding: 1rem 2rem;
+}
+@media  screen and (max-width: 806px){
+    .central{
+    padding-top: 50px;
+    }
+}
+#btncostume{
+    background-color: #b4000f;
+    border: none;
+}
+#btncostume:hover{
+    background-color: #df0719;
+}
+.rodape{
+    background: rgb(131, 53, 2);
+    min-height: 100px;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70px;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+  }
+.textorodape{
+    color: white;
+}
+.icongit{
+    width: 40px;
+    cursor: pointer;
+}
+.copyright{
+    color: rgba(207, 207, 207, 0.877);
+   
+}
+.icongit:hover{
+    transform: scale(1.3);
+    transition: 0.5s ;
+}
