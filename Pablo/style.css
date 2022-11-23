@@ -1,0 +1,238 @@
+*{
+    position: relative;
+}
+
+
+body{
+    overflow-x: hidden !important;
+    background-image: url(img/food-wallpaper-20100313250343.jpg) ;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/*Ítens do Navbar*/
+
+a:hover{
+    background-color: rgb(170, 83, 25);
+    color: antiquewhite;
+    border-radius: 10px;
+    transition: transform .5s ease-in;
+    transition: all 0.1s ease-in;
+}
+a{
+    border-radius:10px ;
+}
+
+/*Navbar*/
+
+.navbar{
+    background-color: rgb(131, 53, 2);
+    box-shadow: 1px 7px 30px rgb(48, 21, 0);
+}
+
+/*Container com todos os componentes*/
+
+div#custom{
+    padding-top: 20px;
+    margin-top: 30px;
+    background-color: rgb(170, 83, 25);
+    width: 80%;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+
+/*Div com todoos os rádios*/
+
+.opcoes{
+    position: static;
+    padding-top: 5%;
+    left: 50%;
+    top: 50%;
+    margin-left: 11%;
+}
+
+@media screen and (max-width:800px){
+    .table-borderless{
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+    }
+    div#custom{
+        padding-top: 20px;
+        margin-top: 30px;
+        background-color: rgb(170, 83, 25);
+        width: 80%;
+        height: 100%;
+        border-radius: 10px;
+        padding-bottom: 10px;
+    }
+    label.nomes{
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .opcoes{
+        margin-left: 6%;
+
+}
+    .div#botoes-de-ações{
+        width: 100%;
+    
+    }
+    
+    #proximo.btn{
+        margin-right: 3%;
+        float: right;
+        background-color: rgb(82, 16, 16);
+        border: none;
+        border-radius: 15px;
+        width: 100px;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #voltar.btn{
+        background-color: rgb(82, 16, 16);
+        width: 100px;
+        height: 100%;
+        margin-left: 8%;
+        padding: 0;
+    }
+    #button-proximo{
+        margin-right: 5%;
+        justify-items: end;
+        padding: 0;
+    }
+    #button-cancelar{
+        height: 70px;
+        padding: 0;   
+    }
+
+}
+
+
+/*Título da etapa*/
+
+h1.massas{
+    padding-top: 5%;
+    text-align: center;
+    font-size: 50px;
+}
+
+/*Div da barra de progresso*/
+
+#passos{
+    width: 70%;
+    margin-left: 15%;
+    bottom: 20%;
+    height: 40px;
+    font-weight: bold;
+}
+
+/*Barra interior de progresso*/
+
+.progresso{
+    background-color: rgb(131, 53, 2);
+    font-size: x-large;
+    text-align: center;
+    color: rgb(255, 156, 91);
+}
+
+/*rádio base*/
+
+.custom-radio input{
+    display: none;
+}
+
+/*rádios antes de selecionados*/
+
+.custom-radio input + label:before {
+    content: '';
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid gray;
+    display: inline-block;
+    vertical-align: text-top;
+    margin-right: 8px;
+
+}
+
+/*rádios depois de selecionados*/
+  
+.custom-radio input:checked + label:before {
+    background-color: white;
+    box-sizing: border-box;
+    border: 10px solid rgb(131, 53, 2);
+    padding: 1px;
+}
+
+/*Label dos rádios*/
+
+label{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+/*6 Rádios superiores*/  
+
+#cima{
+    margin-bottom: 100px;
+}
+
+/*3 Rádios inferiores*/
+
+#baixo{
+    margin-bottom: 70px;
+}
+
+/*Botão Próximo*/
+
+.div#botoes-de-ações{
+    width: 100%;
+    height: 100%;
+
+}
+
+#proximo{
+        color:aliceblue;
+        background-color: rgb(82, 16, 16);
+        border: none;
+        width: 46%;
+        height: 100%;
+        border-radius: 15px;
+        margin-left: 20%;
+
+}
+
+#voltar{
+    color: aliceblue;
+    background-color: rgb(82, 16, 16);
+    border: none;
+    border-radius: 15px;
+    width: 46%;
+    height: 100%;
+    margin-left: 20%;
+    padding: 0;
+}
+#button-proximo{
+    height: 70px;
+    padding: 0;
+}
+#button-cancelar{
+    height: 70px;
+    padding: 0;   
+}
+
+
+
+
+
+
