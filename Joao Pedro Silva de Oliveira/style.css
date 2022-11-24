@@ -1,0 +1,88 @@
+.body{
+    background-color: rgb(78, 31, 0);
+}
+.texto{
+    color:antiquewhite ;
+}
+.h1aleatorio{
+    font-style: arial;
+    font-size: 0px 0px;
+}
+.navbar{
+    background-color: rgb(131, 53, 2);
+    box-shadow: 1px 7px 30px rgb(48, 21, 0);
+    
+}
+a:hover{
+    background-color: rgb(170, 83, 25);
+    color: antiquewhite;
+    border-radius: 10px;
+    transition: transform .5s ease-in;
+    transition: all 0.1s ease-in;
+}
+a{
+    border-radius:10px ;
+}
+#correcao{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.alinhar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center; 
+    align-items: center;  
+}
+.efeitocard{
+    background-color: antiquewhite;
+    margin: 20px 0px;
+}
+.ajustetexto{
+    text-align: center;
+}
+.textotitle{
+    color: brown;
+    font-style: italic;
+}
+.ajustelogo{
+    background-color: none;
+    color: none;
+    transition: transform 1s;
+    transform: translateX(0) scale(1.0);
+}
+.ajustelogo:hover,
+.ajustelogo:focus {
+  background: none;
+  transform: translateX(5px) scale(00.9);
+  
+}
+.ajustecard{
+    margin: 15px 0px;
+}
+.efeitocard1 {
+    color: black;
+    background: antiquewhite;
+    transition: transform 1s;
+    transform: translateX(0) scale(1.0);
+  }
+  
+  .efeitocard1:hover,
+  .efeitocard1:focus {
+    background: antiquewhite;
+    transform: translateX(10px) scale(1.05);
+    
+  }
+  .h1aleatorio1{
+    color: white;
+    background: none;
+    transition: background 0.5s;
+    transform: translateX(0) scale(1.0);
+}  
+.h1aleatorio1:hover,
+.h1aleatorio1:focus {
+    background: rgb(131, 53, 2);
+    font-size: 55px;
+    transition: font 1s;
+    transform: translateX(6px) scale(00.9);
+  }
