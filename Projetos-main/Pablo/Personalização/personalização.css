@@ -114,6 +114,17 @@ div#custom{
     }
 
 }
+@media screen and (max-width: 404px) {
+    #proximo1{
+        font-size: 10px;
+    }
+    #voltar1{
+        font-size: 10px;
+    }
+    h1.massas{
+        font-size: 10px;
+    }
+}
 
 
 /*Título da etapa*/
@@ -121,7 +132,7 @@ div#custom{
 h1.massas{
     padding-top: 5%;
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 /*Div da barra de progresso*/
@@ -201,7 +212,7 @@ label{
 
 }
 
-#proximo{
+#proximo.btn{
         color:aliceblue;
         background-color: rgb(82, 16, 16);
         border: none;
@@ -209,10 +220,12 @@ label{
         height: 100%;
         border-radius: 15px;
         margin-left: 20%;
+        text-align: center;
+        align-items: center;
 
 }
 
-#voltar{
+#voltar.btn{
     color: aliceblue;
     background-color: rgb(82, 16, 16);
     border: none;
@@ -221,7 +234,33 @@ label{
     height: 100%;
     margin-left: 20%;
     padding: 0;
+    text-align: center;
 }
+
+#proximo1.btn{
+    color:aliceblue;
+    background-color: rgb(82, 16, 16);
+    border: none;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border-radius: 15px;
+    text-align: center;
+    
+
+}
+
+#voltar1.btn{
+    color: aliceblue;
+    background-color: rgb(82, 16, 16);
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    text-align: center;
+}
+
 #button-proximo{
     height: 70px;
     padding: 0;
