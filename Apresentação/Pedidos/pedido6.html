@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🍕PersonaPizza🍕</title>
+  <link rel="stylesheet" href="pedido.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!--Navbar-->
+  <div class="container-fluid">
+    <div class="col">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg  p-3">
+          <div class="container-fluid">
+            <img class="me-4" src="img/MicrosoftTeams-image 2.svg" alt="" width="100" height="100">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item me-3">
+                  <a class="nav-link active  text-light" aria-current="page" href="../Home/Home.html">Home</a>
+                </li>
+                <li class="nav-item me-3 ">
+                  <a class="nav-link  text-light" href="../Cardapio/Cardapio.html">Cardapio</a>
+                </li>
+                <li class="nav-item me-3">
+                    <a class="nav-link  text-light" href="../Personalização/primeira-etapa.html">Personalização</a>                </li>
+              </ul>
+              <a href="../Login/Login.html" class="btn">
+                <button class="btn btn-outline-danger justify-content-end" type="submit">Login</button>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" id="fundo">
+    <div class="row" id="itens-pedido">
+      <div class="col" id="pizza">
+        <figure class="figure" id="imagem-pizza">
+          <img src="img/Rectangle 6.jpg" class="figure-img img-fluid rounded float-start" id="pizza" alt="...">
+        </figure>
+      </div>
+      <div class="col" id="preço-pizza">
+        <h1 id="nome-pizza">Pizza de Queijo</h1>
+        <h5 id="calorias">809Kcal</h5>
+        <p id="descrição">Pizza feita com massa de trigo, recheio de mussarela, orégano, tomate e cebola</p>
+        <h1 id="preço-pizza">R$40,00</h1>
+        <div id="botoes">
+          <a class="btn">
+          <button type="button" id="botão-comprar">Comprar</button>
+          </a>
+          <a class="btn" href="../Personalização/primeira-etapa.html">
+          <button type="button" id="botão-personalize">Personalizar</button>
+        </a>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

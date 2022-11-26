@@ -1,0 +1,56 @@
+.price{
+    color: green;
+    font-size: 20px;
+}
+#buybtn{
+    background-color: #b4000f;
+    border: none;
+}
+#buybtn:hover{
+    background-color: #df0719;
+}
+#card{
+    padding: 1rem 2rem;
+}
+#decocard:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+
+@media  screen and (max-width: 989px){
+    #card{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 1rem 2rem;
+    }
+}
+.rodape{
+    position: relative;
+    width: 100%;
+    background: rgb(131, 53, 2);
+    min-height: 100px;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70px;
+  }
+.textorodape{
+    color: white;
+}
+.icongit{
+    width: 40px;
+    cursor: pointer;
+}
+.copyright{
+    color: rgba(207, 207, 207, 0.877);
+   
+}
+.icongit:hover{
+    transform: scale(1.3);
+    transition: 0.5s ;
+}

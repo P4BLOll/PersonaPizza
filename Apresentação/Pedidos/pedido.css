@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+body{
+    background-color: #875b49;
+    overflow-x: hidden !important; 
+    width: 100vw;
+    height: 100vh;
+}
+
+/*Ítens do Navbar*/
+
+a:hover{
+    background-color: rgb(170, 83, 25);
+    color: antiquewhite;
+    border-radius: 10px;
+    transition: transform .5s ease-in;
+    transition: all 0.1s ease-in;
+}
+a{
+    border-radius:10px ;
+}
+
+/*Navbar*/
+
+.navbar{
+    background-color: rgb(131, 53, 2);
+    box-shadow: 1px 7px 30px rgb(48, 21, 0);
+}
+
+div#fundo{
+    background-color: #875b49;
+    height: 100vh;
+    width: 100vw;
+    display: block;
+}
+
+div#preço-pizza{
+    background-color: #875b49;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+h1#nome-pizza{
+    background-color: #875b49;
+    font-size: 80px;
+    color: aliceblue;
+}
+
+p#descrição{
+    font-size: 30px;
+    color: aliceblue;
+}
+
+h5#calorias{
+    font-size: 40px;
+    color: aliceblue;
+}
+
+h1#preço-pizza{
+    color: rgb(21, 75, 21);
+    font-size: 60px;
+}
+
+#imagem-pizza{
+    background-color: #875b49;
+    margin: 0%;
+}
+
+img#pizza{
+    background-color: #875b49;
+    margin: 0%;
+}
+
+div#pizza{
+    background-color: #875b49;
+    padding: 70px;
+}
+
+div#informações{
+    background-color: #875b49;
+    padding: 60px;
+    width: 50%;
+    
+}
+
+@media screen and (max-width: 869px) {
+    div#itens-pedido{
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0%;
+        background-color: #875b49;
+    
+    }
+    div#pizza{
+        width: 100vw;
+        margin-top: 10px;
+        padding: 10px;
+        background-color: #875b49;
+    }
+    img#pizza{
+        background-color: #875b49;
+        width: 100vw;
+        
+    }
+    div#preço-pizza{
+        width: 100vw;
+        height: 100vh;
+        background-color: #875b49;
+    }
+    div#fundo{
+        width: 100%;
+        background-color: #875b49;
+        height: 100vh;
+        padding: 0%;
+    }
+    div#botoes{
+        width: 100%;
+        flex-direction: row;
+    }
+    h1#nome-pizza{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    #botoes{
+        display: block;
+    }
+    
+}
+@media screen and (max-width: 384) {
+    div#botoes{
+        flex-direction: column;
+        width: 100%;
+        padding-left: 10px;
+        align-items: center;
+        padding: 0%;
+        margin: 0%;
+    }
+    #botão-comprar{
+        margin-left: 30px;
+    }
+    
+}
+
+#botão-comprar{
+    color:aliceblue;
+    background-color: rgb(82, 16, 16);
+    border: none;
+    width: 250px;
+    height: 80px;
+    border-radius: 15px;
+    margin: 10px;
+ 
+    font-size: x-large;
+}
+
+#botão-personalize{
+    color: aliceblue;
+    background-color: #875b49;
+    border: none;
+    margin: 10px;
+    width: 250px;
+    height: 80px;
+    border-radius: 15px;
+    margin: 10px;
+    font-size: x-large;
+}
+
+#botão-personalize:hover{
+    color: aliceblue;
+    background-color: rgb(82, 16, 16);
+    border: none;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 80px;
+    border-radius: 15px;
+    margin: 10px;
+    transition: transform .5s ease-in;
+    transition: all 0.1s ease-in;
+}
+
+#botoes{
+    margin-top: 20px;
+}
+

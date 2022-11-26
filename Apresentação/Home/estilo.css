@@ -1,0 +1,118 @@
+
+.body{
+    background: linear-gradient(rgb(78, 31, 0),rgb(32, 14, 2));
+    overflow-x: hidden !important;
+    
+}
+
+
+a:hover{
+    background-color: rgb(170, 83, 25);
+    color: antiquewhite;
+    border-radius: 10px;
+    transition: transform .5s ease-in;
+    transition: all 0.1s ease-in;
+}
+a{
+    border-radius:10px ;
+}
+.navbar{
+    background-color: rgb(131, 53, 2);
+    box-shadow: 1px 7px 30px rgb(48, 21, 0);
+    background-attachment: fixed;
+}
+#imgs{
+    padding: 5px;
+    transition: transform .2s;
+    border-radius: 10px;
+}
+#imgs:hover{
+    transform: scale(1.1);
+    box-shadow: 15px 15px 20px rgb(20, 9, 0);
+    padding: 0;
+    cursor: pointer;
+}
+@media screen and (max-width: 720px){
+    #imgs{
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .img3{
+        width: 100%;
+        margin-bottom: 10rem;
+    }
+    .img2{
+        width: 100%;
+        
+    }
+
+    #c{
+        background-size:  400px;
+        background-position:50% 029%; 
+        height: 390px;
+        
+}
+}
+.capa{
+background: url(imgs-v/Capa\ 1Capa.2.svg);
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+height: 860px;
+background-size: 1899px;
+}
+
+.rodape{
+
+    position: relative;
+
+    width: 100%;
+
+    background: rgb(131, 53, 2);
+
+    min-height: 100px;
+
+    padding: 15px 15px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-direction: column;
+
+    height: 70px;
+
+  }
+
+.textorodape{
+
+    color: white;
+
+}
+
+.icongit{
+
+    width: 40px;
+
+    cursor: pointer;
+
+}
+
+.copyright{
+
+    color: rgba(207, 207, 207, 0.877);
+
+   
+
+}
+
+.icongit:hover{
+
+    transform: scale(1.3);
+
+    transition: 0.5s ;
+
+}
